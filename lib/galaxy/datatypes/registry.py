@@ -7,6 +7,7 @@ import os
 import tempfile
 import logging
 import imp
+import cel
 from . import data
 from . import tabular
 from . import interval

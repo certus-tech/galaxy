@@ -47,6 +47,7 @@
       <display file="igb/bigwig.xml" />
       <display file="igv/bigwig.xml" />
     </datatype>
+    <datatype extension="cel" type="galaxy.datatypes.cel:Cel" mimetype="application/octet-stream" subclass="True" display_in_upload="True" />
     <datatype extension="cxb" type="galaxy.datatypes.binary:Binary" mimetype="application/octet-stream" subclass="True" display_in_upload="true" description="Cuffquant output format" />
     <datatype extension="chrint" type="galaxy.datatypes.interval:ChromatinInteractions" display_in_upload="True">
       <converter file="interval_to_bgzip_converter.xml" target_datatype="bgzip"/>
