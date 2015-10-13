@@ -19,6 +19,7 @@ import coverage
 import tracks
 import chrominfo
 import binary
+import cel
 import assembly
 import ngsindex
 import graph
