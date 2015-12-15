@@ -20,6 +20,7 @@ import tracks
 import chrominfo
 import binary
 import cel
+import celcc1
 import assembly
 import ngsindex
 import graph
