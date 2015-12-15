@@ -48,6 +48,7 @@
       <display file="igv/bigwig.xml" />
     </datatype>
     <datatype extension="cel" type="galaxy.datatypes.cel:Cel" mimetype="application/octet-stream" subclass="True" display_in_upload="True" />
+    <datatype extension="celcc1" type="galaxy.datatypes.celcc1:CelCc1" mimetype="application/octet-stream" subclass="True" display_in_upload="True" />
     <datatype extension="cxb" type="galaxy.datatypes.binary:Binary" mimetype="application/octet-stream" subclass="True" display_in_upload="true" description="Cuffquant output format" />
     <datatype extension="chrint" type="galaxy.datatypes.interval:ChromatinInteractions" display_in_upload="True">
       <converter file="interval_to_bgzip_converter.xml" target_datatype="bgzip"/>
@@ -576,6 +577,7 @@
     <sniffer type="galaxy.datatypes.constructive_solid_geometry:VtkBinary"/>
     <sniffer type="galaxy.datatypes.interval:ScIdx"/>
     <sniffer type="galaxy.datatypes.cel:Cel"/>
+    <sniffer type="galaxy.datatypes.celcc1:CelCc1"/>
     <sniffer type="galaxy.datatypes.tabular:Vcf"/>
     <sniffer type="galaxy.datatypes.binary:TwoBit"/>
     <sniffer type="galaxy.datatypes.binary:GeminiSQLite"/>
