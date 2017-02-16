@@ -7,8 +7,8 @@ import os
 import tempfile
 import logging
 import imp
-import cel
-import celcc1
+from . import cel
+from . import celcc1
 from . import data
 from . import tabular
 from . import interval
